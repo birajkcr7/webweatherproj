@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+</head>
+<body>
+    {{!-- navbar --}}
+    {{>navbar}}
+    {{!-- mainpage --}}
+
+ <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure>
+                             <img src="image/404.jpeg" alt="kc" class="img-fluid" style="height: 300px" >
+                        </figure>
+                   
+                        <h1>{{errorpage}} </h1>
+                        <a href="/" target="birajkcr7" ><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>  
+        </div>  
+    </div>       
+
+    {{>footer}}
+</body>
+</html>
